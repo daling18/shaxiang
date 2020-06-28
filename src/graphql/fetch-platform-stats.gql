@@ -1,0 +1,10 @@
+query fetchPlatformStats {
+  # `@client` 指令表示此项会由本地 Schema 解析，不发送给 GraphQL 服务端
+  # 通常用于前端本地模拟服务端未就绪的接口内容
+  platformStats @client {
+    publishedAssets
+    apiInvoked
+    sentRecords
+    totalPV
+  }
+}
