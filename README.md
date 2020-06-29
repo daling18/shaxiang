@@ -17,8 +17,8 @@ yarn lint
 
 ## 协作开发注意事项
 
-1. **不要**直接在 dev 分支上进行开发。每一单元的开发工作在基于 dev 分支的新分支上进行，完成后在 GitLab 上以 dev 为目标分支创建 Merge Request（合并请求），由 Maintainer 合并。
-2. **不要**在同一分支上创建多个 Merge Request。相关分支会在 Merge Request 被合并后移除。
+1. **不要**直接在 dev 分支上进行开发。每一单元的开发工作在基于 dev 分支的新分支上进行，完成后在 Github 上以 dev 为目标分支创建 Pull Request（合并请求），由 Maintainer 合并。
+2. **不要**在同一分支上创建多个 Pull Request。相关分支会在 Pull Request 被合并后移除。
 3. 可以视需要自行创建任意远端分支，但请在完成相关工作后及时清理，保证分支列表的整洁。
 
 ## 关键技术参考资料
