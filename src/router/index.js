@@ -19,6 +19,10 @@ const routes = [
       layout: 'blank',
     },
   },
+  {
+    path: '/admin',
+    component: () => import('../views/admin.vue'),
+  },
 ]
 
 const router = new VueRouter({

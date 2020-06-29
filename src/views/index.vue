@@ -1,6 +1,6 @@
 <template>
   <div class="h-full flex flex-col">
-    <div class="flex-none bg-indigo-700 text-white py-10">
+    <div class="flex-none bg-blue-500 text-white py-10">
       <dl class="mx-auto flex items-center" style="width: 1480px;">
         <div>
           <dt>已共享资源总数（项）</dt>

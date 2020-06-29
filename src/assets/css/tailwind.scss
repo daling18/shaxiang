@@ -10,4 +10,8 @@ svg {
   @apply fill-current;
 }
 
+em {
+  @apply not-italic;
+}
+
 @tailwind utilities;

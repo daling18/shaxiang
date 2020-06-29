@@ -1,7 +1,7 @@
 <template>
   <div class="h-full flex flex-col bg-gray-100">
     <div class="flex-none flex items-center">
-      <strong class="font-semibold" style="font-size: 40px;">重庆市社会公共信息资源共享交换平台</strong>
+      <strong class="font-semibold" style="font-size: 40px;">重庆市政务数据资源开放系统</strong>
     </div>
     <form class="flex-none self-center my-auto flex flex-col rounded bg-white shadow-lg p-10" @submit.prevent>
       <h1 class="text-center" style="font-size: 40px;">用户登录</h1>
