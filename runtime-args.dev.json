@@ -1,0 +1,11 @@
+{
+  "VUE_APP_GRAPHQL_HTTP": "http://deploy.cqsqd.com:30430/rsp-frontier/graphql",
+  "VUE_APP_AUTH_FRONTIER_URL": "http://deploy.cqsqd.com:30430/auth-frontier/graphql",
+  "VUE_APP_AC_URL": "http://deploy.cqsqd.com:30430/ac/",
+  "VUE_APP_AC_USER_CENTER_URL": "http://deploy.cqsqd.com:30430/ac/#/users/user/operates?pageNum=1&id=$VUE_APP_AC_USER_CENTER_URL&type=organization",
+  "VUE_APP_UPLOAD_URL": "http://deploy.cqsqd.com:30430/auth-frontier/",
+  "VUE_APP_TOKEN_URL": "http://deploy.cqsqd.com:30430/rsp-service/",
+  "VUE_APP_SELF_UPLOAD_URL":"http://deploy.cqsqd.com:30430/rsp-frontier/",
+  "VUE_APP_PUBLIC_PATH": "/"
+}
+

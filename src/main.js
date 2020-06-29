@@ -1,16 +1,24 @@
+import 'babel-polyfill'
 import Vue from 'vue'
+import VueCompositionApi from '@vue/composition-api'
+import {getRuntimeArgs} from './runtime-args'
+import 'element-ui/lib/theme-chalk/index.css'
 
-import router from './router'
-import store from './store'
-import {createProvider} from './vue-apollo'
-import {typeDefs, resolvers} from './graphql/schema'
-import App from './app.vue'
-
+Vue.use(VueCompositionApi)
 Vue.config.productionTip = false
 
-new Vue({
-  router,
-  store,
-  apolloProvider: createProvider({typeDefs, resolvers}),
-  render: h => h(App),
-}).$mount('#app')
+const esm = importCall => importCall.then(mod => mod.default || mod)
+
+getRuntimeArgs().then(async () => {
+  const router = await esm(import('./router'))
+  const store = await esm(import('./store'))
+  const {createProvider} = await esm(import('./apollo/'))
+  const App = await esm(import('./app.vue'))
+
+  new Vue({
+    router,
+    store,
+    apolloProvider: createProvider(),
+    ...App,
+  }).$mount('#app')
+})
