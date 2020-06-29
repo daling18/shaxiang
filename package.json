@@ -1,7 +1,7 @@
 {
-  "name": "ej-chongqing-rsp-webapp",
+  "name": "ej-chongqing-rop-webapp",
   "version": "0.1.0",
-  "author": "SilentDepth",
+  "author": "wangcy183",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
