@@ -22,13 +22,6 @@ yarn lint
 3. 可以视需要自行创建任意远端分支，但请在完成相关工作后及时清理，保证分支列表的整洁。
 4. 文件夹和文件命名使用kebab-case，变量命名使用camelCased。
 
-## hosts
-
-* 开发环境需要配置host访问接口
-* 127.0.0.1  dev.cqsqd.com
-* 109.244.99.167  rsp.cqsqd.com
-* 109.244.99.167	deploy.cqsqd.com
-* 109.244.99.167	cq-demo.cqsqd.com
 
 ## 关键技术参考资料
 
