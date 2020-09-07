@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full flex flex-col bg-gray-100">
+  <div class="h-full flex flex-col bg-gray-100 ">
     <div class="flex-none flex items-center">
       <strong class="font-semibold" style="font-size: 40px;">重庆市政务数据资源开放系统</strong>
     </div>

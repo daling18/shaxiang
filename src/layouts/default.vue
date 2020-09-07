@@ -1,7 +1,7 @@
 <template>
   <div class="h-full flex flex-col bg-gray-100">
-    <div class="bg-blue-500 shadow border-b border-white border-solid" style="height: 100px; padding: 0 30px;">
-      <div class="flex-none self-center flex items-center my-8 mx-10 justify-between">
+    <div class="bg-blue-500 shadow border-b border-white border-solid" style="height: 60px; padding: 10px;">
+      <div class="flex-none self-center flex items-center mx-10 justify-between">
         <!-- <i class="not-italic bg-gray-400 text-gray-800 flex items-center justify-center" style="width: 62px; height: 62px; margin-right: 30px;">LOGO</i> -->
         <div class="flex items-center">
           <img class="mr-2" src="@/assets/img/logo.png" style="width: 56.66px; height: 41.33px;" alt="LOGO">
