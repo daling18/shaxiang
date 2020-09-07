@@ -14,14 +14,6 @@
           </button>
         </div>
       </div>
-      <!-- <div class="flex-none flex items-center ml-10">
-        <nav class="flex-none flex my-4">
-          <router-link to="/admin">应用展现</router-link>
-        </nav> -->
-      <!-- <button class="flex items-center justify-center text-gray-500" style="margin-left: 52px;">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 24px; height: 24px;"><path d="M22 20H2v-2h1v-6.969C3 6.043 7.03 2 12 2s9 4.043 9 9.031V18h1v2zM5 18h14v-6.969C19 7.148 15.866 4 12 4s-7 3.148-7 7.031V18zm4.5 3h5a2.5 2.5 0 1 1-5 0z"/></svg>
-      </button> -->
-      <!-- </div> -->
     </div>
     <slot />
   </div>
