@@ -5,7 +5,7 @@
         <!-- <i class="not-italic bg-gray-400 text-gray-800 flex items-center justify-center" style="width: 62px; height: 62px; margin-right: 30px;">LOGO</i> -->
         <div class="flex">
           <img class="mr-2" src="@/assets/img/logo.png" style="width: 46.66px; height: 31.33px;" alt="LOGO">
-          <strong class="font-semibold text-white" style="font-size: 20px;">重庆市政务数据资源开放系统</strong>
+          <strong class="font-semibold text-white" style="font-size: 20px;">重庆大数据资源中心数据沙箱系统</strong>
         </div>
         <div class="flex">
           <button class="class flex items-center text-white" style="margin-left: 24px;">
